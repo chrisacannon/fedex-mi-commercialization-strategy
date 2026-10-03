@@ -2,11 +2,13 @@
 
 A commercialization strategy presentation built for a FedEx Business Strategy Principal (Go-to-Market & Commercialization) interview case prompt, plus a written account of how the analysis was researched, tested, and corrected along the way.
 
+**Start here if you want the headline:** [open the handoff deck as a PDF](output/FedEx_MI_Commercialization_Strategy_HANDOFF.pdf) for a quick read in-browser.
+
 ## What's in this repo
 
 - **`/output`** — the final deliverables:
   - `FedEx_MI_Commercialization_Strategy.pptx` — the presentation deck (title + 5 core sections + sources appendix), with full speaker-note scripts on every slide.
-  - `FedEx_MI_Commercialization_Strategy_HANDOFF.pptx` — the same deck with condensed bullet-point notes, intended for sharing with others after a presentation rather than for personal rehearsal.
+  - `FedEx_MI_Commercialization_Strategy_HANDOFF.pptx` / `.pdf` — the same deck with condensed bullet-point notes, intended for sharing with others after a presentation rather than for personal rehearsal. The PDF is the quickest way to view it in-browser.
   - `Sales_Enablement_Mockup_STANDALONE.pptx` — an optional single-slide mockup of a sales enablement decision framework referenced (but not required) by the deck.
 - **`/build`** — the source: Node.js scripts (using [pptxgenjs](https://gitbrent.github.io/PptxGenJS/)) that generate the `.pptx` files programmatically. Regenerate any file with `node build/build_main.js` (etc.) from the repo root, or `cd build && npm install && node build_main.js`.
 - **`PROJECT_CONTEXT.md`** — the research and reasoning behind the deck's content: verified claims and their sources, structural approaches that were tried and rejected, and overclaims or errors that were caught mid-process and corrected.
